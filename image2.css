@@ -1,0 +1,56 @@
+body {
+    background-color: #b3faff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #d0d087;
+    border-radius: 20px;
+    width: 400px;
+    padding: 20px 0;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.user-card {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #aaa;
+}
+
+
+
+
+.avatar {
+    
+    width: 70px;
+    height: 70px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-details strong {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+}
+
+.user-details p {
+    font-size: 0.9em;
+    color: #444;
+}
